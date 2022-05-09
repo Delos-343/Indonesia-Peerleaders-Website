@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
             <div className="flex flex-col items-center w-full lg:flex-row sm:py-10 lg:w-1/2">
                 <div className="max-w-lg">
-                    <h1 className="text-xl font-bold tracking-wide text-white text-gray-800 lg:text-3xl lg:text-4xl">
+                    <h1 className="text-xl font-bold tracking-wide text-[#15365e] lg:text-3xl lg:text-4xl">
                         PARAGON DAY <br />
                     </h1>
-                    <h2 className='text-2xl font-bold mt-1 mb-5 text-white text-gray-800'> Find Your Field, Discover Your Calling! </h2>
-                    <p className="mt-7 font-semibold text-gray-300 text-gray-600">
+                    <h2 className='text-2xl font-bold mt-1 mb-5 text-white text-[#15365e]'> Find Your Field, Discover Your Calling! </h2>
+                    <p className="mt-7 font-semibold text-gray-600">
                         [KAMU BERKESEMPATAN DIREKRUT PT PARAGON?!] <br />
                         Indonesia Peerleaders by PT Paragon Technology and Innovation mempersembahkan...
                         <br /><br />
