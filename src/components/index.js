@@ -1,0 +1,7 @@
+export { default as Navbar } from './Navbar'
+export { default as Hero } from './Hero'
+export { default as CtaOne } from './cta/CtaOne'
+export { default as About } from './About'
+export { default as CtaTwo } from './cta/CtaTwo'
+export { default as Contact } from './Contact'
+export { default as Footer } from './Footer'
