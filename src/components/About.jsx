@@ -18,8 +18,8 @@ const About = () => {
                                     for awardees, public seminars, and many other excitements!
                                 </p>
                                 <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
-                                    <span aria-label="lets get started" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">
-                                        Apply Now
+                                    <span aria-label="see our events" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">
+                                        See Our Events
                                     </span>
                                     <div className="pl-2">
                                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg1.svg" alt="arrow" />
@@ -50,7 +50,7 @@ const About = () => {
                                 </div>
                                 <div className="relative mb-3">
                                     <hr className="h-1 rounded-sm bg-gray-200" />
-                                    <hr className="absolute top-0 h-1 w-60 rounded-sm bg-indigo-700" />
+                                    <hr className="absolute top-0 h-1 w-56 rounded-sm bg-indigo-700" />
                                 </div>
                                 <h2 className="text-base text-gray-600 dark:text-gray-700 font-normal tracking-normal leading-5">BATCH 1</h2>
                             </div>
@@ -69,10 +69,12 @@ const About = () => {
                                     </h1>
                                 </div>
                                 <p role="contentinfo" className="text-lg dark:text-gray-500 lg:text-xl leading-7 md:leading-10 f-f-r py-8">
-                                At Indonesia Peerleaders, we believe that each individual is resourceful and can grow significantly beyond their limits by empowering them with a coaching-based peer learning program. We aim to enable young leaders to access self-development, soft and hard skills, and a creative learning environment, so they will be able to lead the way for a lasting 
+                                    At Indonesia Peerleaders, we believe that each individual is resourceful and can grow significantly beyond their limits by empowering them with a coaching-based peer learning program. We aim to enable young leaders to access self-development, soft and hard skills, and a creative learning environment, so they will be able to lead the way for a lasting impact.
                                 </p>
                                 <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
-                                    <span aria-label="lets get started" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">Lets Get Started</span>
+                                    <span aria-label="apply now" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">
+                                        Apply Now
+                                    </span>
                                     <div className="pl-2">
                                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg1.svg" alt="arrow" />
                                     </div>

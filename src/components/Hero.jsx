@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
             <div className="p-20 flex items-center justify-center w-full mt-2 lg:h-full lg:w-1/2">
                 <img className="object-contain w-full max-w-4xl rounded-lg lg:h-full"
-                    src="https://i.postimg.cc/J7PCJQwh/paragon-Day-speakers.png" alt="apple watch photo" />
+                    src="https://i.postimg.cc/J7PCJQwh/paragon-Day-speakers.png" alt="event poster" />
             </div>
         </div>
     </div>
