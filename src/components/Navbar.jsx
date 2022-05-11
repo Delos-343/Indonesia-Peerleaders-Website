@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='w-screen h-[100px] z-30 bg-[#215aa8] backdrop-blur-md shadow-md text-white font-semibold fixed drop-shadow-lg list-none'>
       <div className='p-5 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-          <Link to='home' className='mr-5 py-5'>
+          <Link to='/' className='mr-5 py-5'>
             <img className='w-40' src='https://i.postimg.cc/76fgsQkz/IPL-LOGO-14.png' alt='IPL LOGO' />
           </Link>
           <ul className='hidden md:flex space-x-5'>

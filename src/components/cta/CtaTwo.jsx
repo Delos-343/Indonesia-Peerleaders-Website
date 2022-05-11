@@ -21,10 +21,10 @@ const CtaTwo = () => {
             </div>
         </div>
         <div className="flex items-center gap-8 p-10 lg:p-24">
-            <img src="https://i.postimg.cc/tJs6cSKh/photo-1546872006-42c78c0ccb29-ixlib-rb-1-2.jpg" className="rounded-lg w-2/5" alt="Tree"/>
+            <img src="https://i.postimg.cc/tJs6cSKh/photo-1546872006-42c78c0ccb29-ixlib-rb-1-2.jpg" className="border w-2/5" alt="Tree"/>
             <div>
-                <img src="https://i.postimg.cc/8cCPTHgt/product-school-DL-yy-YDDNX4-unsplash.jpg" className="rounded-lg mb-8" alt="Tree"/>
-                <img src="https://i.postimg.cc/pLJJpf9K/matthew-ball-Snjyva-Ktx-Po-unsplash.jpg" className="rounded-lg object-cover object-bottom h-56 w-96" alt="Tree"/>
+                <img src="https://i.postimg.cc/8cCPTHgt/product-school-DL-yy-YDDNX4-unsplash.jpg" className="border mb-8" alt="Tree"/>
+                <img src="https://i.postimg.cc/pLJJpf9K/matthew-ball-Snjyva-Ktx-Po-unsplash.jpg" className="border object-cover object-bottom h-56 w-96" alt="Tree"/>
             </div>
         </div>
     </div>

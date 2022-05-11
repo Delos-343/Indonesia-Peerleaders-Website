@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react'
 
 const About = () => {
@@ -88,7 +89,7 @@ const About = () => {
                                 <p className="text-gray-600 dark:text-gray-400 leading-3 font-bold">Amazing Mentors</p>
                                 <div className="mt-4 flex items-center">
                                     <span className="text-gray-600 dark:text-gray-200">
-                                       <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg4.svg" alt="account" />
+                                       <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg4.svg" alt="IPL Mentors" />
                                     </span>
                                     <p className="ml-1 text-sm text-gray-800 leading-3 tracking-normal font-normal"> &nbsp; Meet them in Our Programs! </p>
                                 </div>
