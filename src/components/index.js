@@ -14,3 +14,4 @@ export { default as Current } from './events-page/Current'
 export { default as Past } from './events-page/Past'
 
 // Event Details Page specific
+export { default as Poster } from './event-details/Poster'

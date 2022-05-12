@@ -4,6 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import { BiCoffeeTogo } from 'react-icons/bi'
 import { BsAward } from 'react-icons/bs'
 import { FaUsersCog } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export default function DropOne() {
   return (
@@ -31,24 +32,26 @@ export default function DropOne() {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-50'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <DuplicateActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <DuplicateActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
-                    Ongoing Events
-                  </button>
+                  <Link to='/events'>
+                    <button
+                      className={`${
+                        active ? 'bg-violet-500 text-white' : 'text-gray-50'
+                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                    >
+                      {active ? (
+                        <DuplicateActiveIcon
+                          className="mr-2 h-5 w-5"
+                          aria-hidden="true"
+                        />
+                      ) : (
+                        <DuplicateActiveIcon
+                          className="mr-2 h-5 w-5"
+                          aria-hidden="true"
+                        />
+                      )}
+                      Ongoing Events
+                    </button>
+                  </Link>
                 )}
               </Menu.Item>
             </div>

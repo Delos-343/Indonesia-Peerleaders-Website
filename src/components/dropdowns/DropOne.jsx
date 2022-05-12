@@ -32,7 +32,7 @@ export default function DropOne() {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
-                  <Link to='/Events'>
+                  <Link to='/events'>
                     <button
                       className={`${
                         active ? 'bg-blue-500 text-white' : 'text-gray-50'
