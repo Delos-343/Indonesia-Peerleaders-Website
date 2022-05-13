@@ -2,13 +2,14 @@
 import React,{ Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className="bg-gray-200 pt-40 sm:pt-28">
+    <div className="bg-gray-200 pt-40 sm:pt-16">
         <div className="container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
             <div className="flex flex-col items-center w-full lg:flex-row sm:py-10 lg:w-1/2">
-                <div className="max-w-lg">
+                <div className="max-w-lg m-auto sm:ml-20">
                     <h1 className="text-4xl font-bold tracking-wide text-[#215aa8] lg:text-4xl">
                         CRACK-THE-CASE: <br />
                     </h1>
@@ -24,10 +25,10 @@ const Hero = () => {
                         The goal is to improve youth’s business logical thinking and achieve Indonesia Peerleaders’ goal of bridging the learning gap between Indonesian youth...
                     </p>
                     <div className="mt-12">
-                        <a href="https://peerleaders.id/event" target="_blank"
-                            className="inline-block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400" rel="noreferrer">
+                        <Link to='/events' smooth={true} offset={-50} duration={500}
+                            className="inline-block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400">
                             Read More
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

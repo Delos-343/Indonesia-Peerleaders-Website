@@ -39,7 +39,7 @@ const Navbar = () => {
           <button>
             <DropTwo />
           </button>
-          <li><Link to="contact" smooth={true} offset={-50} duration={500}> Contact </Link></li>
+          <li><Link to="/contact" smooth={true} offset={-50} duration={500}> Contact </Link></li>
         </div>
         <div className='md:hidden mr-4 text-white' onClick={handleClick}>
             {!nav ? <MenuIcon className='w-5' /> : <XIcon className='w-5' />}

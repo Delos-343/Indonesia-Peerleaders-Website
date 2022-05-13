@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -18,14 +19,16 @@ const About = () => {
                                     Take a look at IPL's exclusive leadership developmental program
                                     for awardees, public seminars, and many other excitements!
                                 </p>
-                                <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
-                                    <span aria-label="see our events" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">
-                                        See Our Events
-                                    </span>
-                                    <div className="pl-2">
-                                       <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg1.svg" alt="arrow" />
-                                    </div>
-                                </button>
+                                <Link to='/events' smooth={true} offset={-50} duration={500}>
+                                    <button className="flex items-center cursor-pointer pb-4 md:pb-0 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
+                                        <span aria-label="see our events" role="button" className="focus outline-none f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700 dark:text-indigo-400">
+                                            See Our Events
+                                        </span>
+                                        <div className="pl-2">
+                                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/alternating_description_with_cards-svg1.svg" alt="arrow" />
+                                        </div>
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
